@@ -1,0 +1,2126 @@
+﻿Log file open, 08/08/17 17:15:13
+LogInit:Display: Running engine for game: Elevator
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1351790939) SRandInit(1351790939).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.798614
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.08-08.15.13:881][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.08-08.15.13:881][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.08-08.15.13:949][  0]LogInit: Computer: JOONHO
+[2017.08.08-08.15.13:949][  0]LogInit: User: yeshj
+[2017.08.08-08.15.13:949][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.08-08.15.13:949][  0]LogInit: High frequency timer resolution =3.416977 MHz
+[2017.08.08-08.15.13:949][  0]LogMemory: Memory total: Physical=11.9GB (12GB approx)
+[2017.08.08-08.15.13:949][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.08-08.15.13:949][  0]LogMemory: Process Physical Memory: 272.49 MB used, 272.49 MB peak
+[2017.08.08-08.15.13:949][  0]LogMemory: Process Virtual Memory: 258.46 MB used, 258.46 MB peak
+[2017.08.08-08.15.13:949][  0]LogMemory: Physical Memory: 5666.65 MB used,  6540.42 MB free, 12207.07 MB total
+[2017.08.08-08.15.13:949][  0]LogMemory: Virtual Memory: 634.93 MB used,  6540.42 MB free, 134217728.00 MB total
+[2017.08.08-08.15.15:334][  0]LogInit: Using OS detected language (ko-KR).
+[2017.08.08-08.15.15:334][  0]LogInit: Using OS detected locale (ko-KR).
+[2017.08.08-08.15.15:490][  0]LogTextLocalizationManager: No specific localization for 'ko-KR' exists, so the 'ko' localization will be used.
+[2017.08.08-08.15.18:916][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.08-08.15.19:597][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2017.08.08-08.15.19:597][  0]LogD3D11RHI:       6084/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.08-08.15.19:599][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.08-08.15.19:599][  0]LogD3D11RHI:       0/0/6103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.08-08.15.19:599][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.08-08.15.19:606][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.08-08.15.19:606][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.08-08.15.19:606][  0]LogWindows: EnumDisplayDevices:
+[2017.08.08-08.15.19:606][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2017.08.08-08.15.19:606][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2017.08.08-08.15.19:606][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.08-08.15.19:606][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2017.08.08-08.15.19:607][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.08-08.15.19:607][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2017.08.08-08.15.19:607][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.08.08-08.15.19:607][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.08.08-08.15.19:607][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.08-08.15.20:316][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.08-08.15.20:406][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.08-08.15.20:462][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Intermediate/Shaders/WorkingDirectory/18312/).
+[2017.08.08-08.15.20:462][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/yeshj/AppData/Local/Temp/UnrealShaderWorkingDir/D428FA4A4BDCFF4C6E80229DFBB2B004/'.
+[2017.08.08-08.15.20:462][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.08-08.15.24:839][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.08-08.15.24:892][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.08-08.15.24:936][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.08-08.15.24:980][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.08-08.15.25:060][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.08-08.15.25:105][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.08-08.15.25:160][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.08-08.15.25:209][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.08-08.15.25:256][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.08-08.15.25:308][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.08-08.15.25:372][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.08-08.15.25:416][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.08-08.15.25:457][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.08-08.15.25:499][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.08-08.15.25:541][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.08-08.15.25:640][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.08-08.15.25:640][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.08-08.15.25:673][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.08-08.15.25:830][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.08-08.15.25:854][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.08-08.15.25:896][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.08-08.15.25:940][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.08-08.15.25:982][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.08-08.15.26:041][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.08-08.15.26:041][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.08-08.15.26:847][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.08-08.15.27:432][  0]LogDerivedDataCache: Loaded boot cache 0.58s 90MB C:/Users/yeshj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.08-08.15.27:432][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/yeshj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.08-08.15.27:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.08-08.15.27:432][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.08-08.15.27:432][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.08-08.15.27:432][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.08-08.15.27:497][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.08-08.15.27:527][  0]LogDerivedDataCache: Using Local data cache path C:/Users/yeshj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.08-08.15.27:537][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.08-08.15.27:553][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.08-08.15.27:607][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.08-08.15.27:607][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.08-08.15.29:353][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.08-08.15.30:063][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.08-08.15.30:496][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.08-08.15.30:640][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.08-08.15.30:693][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.08-08.15.30:693][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.08-08.15.30:693][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.08-08.15.33:650][  0]LogNetVersion: Elevator , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 17206138)
+[2017.08.08-08.15.33:845][  0]LogAssetRegistry: FAssetRegistry took 0.0374 seconds to start up
+[2017.08.08-08.15.34:170][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.291674 seconds
+[2017.08.08-08.15.34:176][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.08-08.15.34:176][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.08-08.15.34:176][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.08-08.15.34:233][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.08-08.15.48:461][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.08-08.15.48:500][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.08-08.15.49:570][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.08-08.15.50:330][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.08-08.15.50:460][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.08-08.15.50:528][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.08-08.15.50:578][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.08-08.15.51:591][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.08-08.15.52:370][  0]LogEngine: Initializing Engine...
+[2017.08.08-08.15.52:371][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.08-08.15.53:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.08-08.15.53:213][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.08-08.15.53:542][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.08-08.15.53:592][  0]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.08-08.15.53:618][  0]LogInit: FAudioDevice initialized.
+[2017.08.08-08.15.53:671][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/yeshj/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.08-08.15.53:682][  0]LogInit: Texture streaming: Enabled
+[2017.08.08-08.15.53:838][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.08-08.15.54:349][  0]LogInit: Transaction tracking system initialized
+[2017.08.08-08.15.54:682][  0]BlueprintLog: New page: 에디터 로드
+[2017.08.08-08.15.56:037][  0]LocalizationService: 정보 현지화 서비스가 비활성화되었습니다.
+[2017.08.08-08.15.56:971][  0]LogConsoleResponse:Display: 
+[2017.08.08-08.15.58:065][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.08-08.15.58:065][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.08-08.15.58:965][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Content/' took 0.03s
+[2017.08.08-08.15.59:658][  0]SourceControl: 정보 소스 콘트롤이 꺼졌습니다.
+[2017.08.08-08.15.59:658][  0]Cmd: MAP LOAD FILE="../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.08-08.15.59:694][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.08-08.15.59:729][  0]MapCheck: New page: 맵 체크
+[2017.08.08-08.15.59:729][  0]LightingResults: New page: 라이팅 빌드
+[2017.08.08-08.16.01:469][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.08-08.16.01:566][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.08-08.16.01:594][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.08-08.16.01:640][  0]MapCheck: 정보 맵 체크 완료: 오류 0 회, 경고 0 회, 소요 시간 45.851ms.
+[2017.08.08-08.16.01:640][  0]LogFileHelpers: Loading map 'Minimal_Default' took 1.982
+[2017.08.08-08.16.01:893][  0]LogCollectionManager: Loaded 0 collections in 0.001821 seconds
+[2017.08.08-08.16.01:996][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Saved/Collections/' took 0.01s
+[2017.08.08-08.16.01:997][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Content/Developers/yeshj/Collections/' took 0.01s
+[2017.08.08-08.16.01:997][  0]LogFileCache: Scanning file cache for directory 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Content/Collections/' took 0.01s
+[2017.08.08-08.16.01:997][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2017.08.08-08.16.02:005][  0]LogContentBrowser: Native class hierarchy populated in 0.0083 seconds. Added 2329 classes and 491 folders.
+[2017.08.08-08.16.02:067][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.08-08.16.03:200][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.08-08.16.03:369][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.08-08.16.03:665][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.08-08.16.03:703][  0]LogSlate: Took 0.011872 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.08-08.16.03:772][  0]LogSlate: Took 0.067680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/NanumGothic.ttf' (4243K)
+[2017.08.08-08.16.03:786][  0]LogSlate: Took 0.013141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.08-08.16.03:798][  0]LogSlate: Took 0.011211 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.08-08.16.04:123][  0]LogRenderer: Reallocating scene render targets to support 1208x924 NumSamples 1 (Frame:1).
+[2017.08.08-08.16.04:501][  0]LogUObjectGlobals:Warning: 'Class 없음.' 오브젝트를 찾는 데 실패했습니다.
+[2017.08.08-08.16.04:600][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.08-08.16.04:600][  0]LogLoad: (Engine Initialization) Total time: 57.14 seconds
+[2017.08.08-08.16.04:600][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.39 seconds
+[2017.08.08-08.16.04:600][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.08-08.16.04:941][  0]LogOcInput: OculusInput pre-init called
+[2017.08.08-08.16.04:941][  0]LogHMD: Starting GearVRController plugin
+[2017.08.08-08.16.04:976][  0]LogAssetRegistry: Asset discovery search completed in 31.1522 seconds
+[2017.08.08-08.16.04:977][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.08-08.16.04:977][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
+[2017.08.08-08.16.04:980][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.08-08.16.05:180][  0]LogSlate: Took 0.005335 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.08-08.16.05:994][  3]LogSlate: Took 0.000202 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.08-08.16.17:653][ 38]LogSlate: Took 0.005481 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.08-08.16.18:204][ 38]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.08.08-08.16.19:238][ 38]LogSlate: Took 0.023122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.08-08.16.19:533][ 39]LogSlate: Took 0.014942 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.08-08.16.30:050][817]LogEditorViewport: Clicking on Actor (context menu): Elevator_BP_C (Elevator_BP)
+[2017.08.08-08.16.53:722][581]LogTemp: Repeting last play command: 선택된 뷰포트
+[2017.08.08-08.16.53:886][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.08-08.16.53:886][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.08-08.16.53:908][581]PIE: New page: PIE 세션: Minimal_Default (2017. 8. 9. 오전 2:16:53)
+[2017.08.08-08.16.53:908][581]LogPlayLevel: Creating play world package: /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default
+[2017.08.08-08.16.53:916][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007798s)
+[2017.08.08-08.16.53:917][581]LogAIModule: Creating AISystem for world Minimal_Default
+[2017.08.08-08.16.53:917][581]LogPlayLevel: PIE: World Init took: (0.000827s)
+[2017.08.08-08.16.53:917][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/StarterContent/Maps/Minimal_Default.Minimal_Default to /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default (0.008906s)
+[2017.08.08-08.16.53:937][581]LogInit: XAudio2 using '스피커(High Definition Audio 장치)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.08-08.16.53:944][581]LogInit: FAudioDevice initialized.
+[2017.08.08-08.16.53:988][581]LogLoad: Game class is 'NewBlueprint_C'
+[2017.08.08-08.16.54:024][581]LogWorld: Bringing World /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default.Minimal_Default up for play (max tick rate 0) at 2017.08.08-17.16.54
+[2017.08.08-08.16.54:035][581]LogWorld: Bringing up level for play took: 0.012064
+[2017.08.08-08.16.54:070][581]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.08-08.16.54:071][581]PIE: 정보 /Game/StarterContent/Maps/UEDPIE_0_Minimal_Default 에 대한 에디터에서 플레이 시작 시간: 0.405
+[2017.08.08-08.16.54:071][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.08-08.16.54:089][581]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:169][582]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:184][583]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:202][584]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:264][585]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:294][586]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:323][587]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:352][588]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:376][589]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:384][590]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:392][591]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:401][592]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:409][593]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:417][594]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:426][595]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:434][596]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:443][597]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:451][598]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:459][599]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:467][600]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:476][601]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:484][602]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:493][603]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:501][604]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:509][605]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:518][606]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:526][607]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:534][608]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:542][609]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:551][610]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:559][611]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:567][612]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:576][613]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:584][614]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:593][615]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:601][616]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:609][617]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:617][618]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:626][619]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:634][620]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:643][621]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:651][622]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:659][623]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:668][624]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:676][625]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:684][626]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:693][627]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:701][628]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:709][629]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:717][630]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:726][631]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:734][632]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:742][633]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:751][634]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:759][635]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:767][636]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:776][637]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:784][638]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:792][639]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:801][640]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:809][641]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:817][642]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:826][643]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:834][644]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:842][645]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:850][646]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:859][647]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:867][648]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:875][649]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:884][650]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:892][651]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:900][652]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:909][653]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:917][654]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:925][655]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:934][656]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:942][657]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:950][658]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:959][659]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:967][660]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:976][661]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:984][662]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.54:992][663]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:000][664]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:009][665]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:017][666]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:025][667]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:035][668]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:043][669]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:051][670]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:059][671]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:068][672]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:076][673]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:084][674]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:093][675]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:101][676]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:109][677]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:118][678]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:126][679]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:135][680]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:143][681]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:151][682]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:159][683]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:168][684]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:176][685]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:185][686]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:194][687]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:201][688]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:210][689]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:218][690]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:226][691]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:234][692]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:243][693]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:251][694]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:259][695]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:268][696]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:276][697]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:284][698]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:292][699]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:300][700]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:309][701]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:317][702]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:325][703]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:334][704]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:342][705]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:350][706]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:359][707]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:367][708]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:375][709]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:384][710]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:392][711]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:400][712]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:409][713]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:417][714]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:425][715]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:434][716]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:442][717]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:450][718]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:459][719]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:467][720]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:475][721]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:484][722]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:492][723]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:501][724]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:509][725]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:517][726]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:526][727]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:534][728]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:543][729]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:551][730]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:559][731]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:568][732]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:576][733]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:585][734]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:593][735]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:601][736]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:609][737]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:618][738]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:626][739]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:634][740]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:643][741]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:651][742]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:659][743]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:668][744]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:676][745]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:684][746]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:692][747]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:701][748]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:709][749]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:718][750]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:726][751]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:734][752]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:742][753]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:751][754]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:759][755]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:767][756]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:776][757]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:784][758]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:792][759]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:801][760]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:809][761]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:817][762]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:826][763]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:834][764]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:842][765]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:850][766]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:859][767]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:867][768]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:876][769]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:884][770]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:893][771]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:901][772]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:909][773]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:918][774]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:926][775]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:934][776]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:942][777]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:951][778]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:959][779]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.55:968][780]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:976][781]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:984][782]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.55:993][783]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:001][784]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:009][785]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:018][786]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:026][787]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:034][788]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:043][789]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:051][790]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:059][791]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:068][792]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:076][793]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:085][794]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:093][795]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:101][796]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:109][797]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:118][798]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:126][799]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:134][800]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:142][801]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:151][802]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:159][803]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:168][804]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:176][805]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:184][806]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:192][807]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:201][808]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:209][809]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:217][810]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:225][811]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:234][812]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:242][813]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:250][814]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:259][815]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:267][816]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:275][817]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:284][818]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:292][819]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:301][820]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:309][821]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:317][822]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:326][823]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:334][824]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:342][825]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:351][826]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:359][827]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:367][828]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:376][829]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:384][830]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:392][831]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:401][832]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:409][833]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:417][834]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:426][835]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:434][836]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:442][837]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:451][838]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:459][839]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:468][840]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:476][841]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:484][842]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:493][843]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:501][844]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:509][845]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:518][846]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:526][847]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:534][848]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:543][849]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:551][850]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:559][851]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:568][852]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:576][853]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:585][854]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:593][855]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:601][856]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:609][857]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:618][858]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:626][859]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.56:634][860]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:642][861]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:651][862]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:659][863]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:667][864]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:676][865]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:684][866]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:693][867]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:701][868]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:709][869]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:718][870]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:726][871]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:734][872]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:742][873]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:751][874]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:759][875]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:767][876]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:776][877]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:784][878]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:792][879]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:801][880]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:809][881]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:817][882]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:826][883]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:834][884]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:842][885]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:851][886]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:859][887]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:867][888]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:876][889]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:884][890]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:892][891]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:901][892]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:909][893]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:917][894]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:926][895]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:934][896]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:942][897]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:950][898]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:959][899]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:967][900]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:975][901]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:984][902]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.56:992][903]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:001][904]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:009][905]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:017][906]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:026][907]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:034][908]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:042][909]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:051][910]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:059][911]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:068][912]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:076][913]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:084][914]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:092][915]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:101][916]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:109][917]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:117][918]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:126][919]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:134][920]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:142][921]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:151][922]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:159][923]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:168][924]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:176][925]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:184][926]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:192][927]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:201][928]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:209][929]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:217][930]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:226][931]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:234][932]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:242][933]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:251][934]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:259][935]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:267][936]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:276][937]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:284][938]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:292][939]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:301][940]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:309][941]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:317][942]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:326][943]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:334][944]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:342][945]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:351][946]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:359][947]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:367][948]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:375][949]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:384][950]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:392][951]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:400][952]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:409][953]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:417][954]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:425][955]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:434][956]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:442][957]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:450][958]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:460][959]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:474][960]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:482][961]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:491][962]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:499][963]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:508][964]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:516][965]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:525][966]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:533][967]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:541][968]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:549][969]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:558][970]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:566][971]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:575][972]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:583][973]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:591][974]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:600][975]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:608][976]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:616][977]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:624][978]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:633][979]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:641][980]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:649][981]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:658][982]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:666][983]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:674][984]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:683][985]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:691][986]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:699][987]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:708][988]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:716][989]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:724][990]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:733][991]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:741][992]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:749][993]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:758][994]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:766][995]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:774][996]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:783][997]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:791][998]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:799][999]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:808][  0]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:816][  1]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:824][  2]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:833][  3]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:841][  4]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:849][  5]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:857][  6]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:866][  7]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:874][  8]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:882][  9]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:891][ 10]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:899][ 11]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:908][ 12]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:916][ 13]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:925][ 14]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:933][ 15]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:941][ 16]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:950][ 17]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:958][ 18]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:967][ 19]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:975][ 20]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:983][ 21]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.57:991][ 22]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:000][ 23]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:008][ 24]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:017][ 25]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:025][ 26]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:033][ 27]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:041][ 28]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:050][ 29]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:058][ 30]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:066][ 31]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:074][ 32]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:083][ 33]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:091][ 34]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:099][ 35]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:108][ 36]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:116][ 37]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:124][ 38]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:133][ 39]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:141][ 40]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:149][ 41]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:158][ 42]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:166][ 43]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:174][ 44]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:183][ 45]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:191][ 46]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:199][ 47]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:208][ 48]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:216][ 49]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:224][ 50]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:233][ 51]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:241][ 52]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:249][ 53]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:258][ 54]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:266][ 55]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:274][ 56]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:283][ 57]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:291][ 58]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:299][ 59]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:307][ 60]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:316][ 61]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:324][ 62]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:332][ 63]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:341][ 64]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:349][ 65]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:358][ 66]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:366][ 67]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:375][ 68]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:383][ 69]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:392][ 70]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:400][ 71]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:408][ 72]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:417][ 73]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:425][ 74]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.16.58:433][ 75]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:442][ 76]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:449][ 77]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:458][ 78]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:466][ 79]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:474][ 80]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:483][ 81]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:491][ 82]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:500][ 83]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:508][ 84]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:516][ 85]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:525][ 86]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:533][ 87]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:541][ 88]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:550][ 89]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:558][ 90]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:567][ 91]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:575][ 92]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:584][ 93]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:592][ 94]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:600][ 95]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:609][ 96]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:617][ 97]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:625][ 98]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:634][ 99]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:642][100]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:650][101]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:659][102]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:667][103]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:675][104]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:683][105]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:692][106]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:700][107]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:708][108]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:716][109]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:725][110]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:733][111]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:741][112]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:750][113]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:758][114]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:766][115]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:775][116]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:783][117]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:791][118]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:800][119]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:808][120]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:817][121]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:825][122]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:833][123]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:842][124]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:850][125]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:858][126]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:866][127]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:875][128]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:884][129]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:892][130]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:900][131]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:909][132]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:917][133]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:925][134]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:934][135]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:942][136]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:951][137]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:959][138]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:967][139]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:975][140]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:983][141]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.58:992][142]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:000][143]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:008][144]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:017][145]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:025][146]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:034][147]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:042][148]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:050][149]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:058][150]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:067][151]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:075][152]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:084][153]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:092][154]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:101][155]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:109][156]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:117][157]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:126][158]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:134][159]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:142][160]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:150][161]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:159][162]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:167][163]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:175][164]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:184][165]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:192][166]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:200][167]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:209][168]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:217][169]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:225][170]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:234][171]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:242][172]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:250][173]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:259][174]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:267][175]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:275][176]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:284][177]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:292][178]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:300][179]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:309][180]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:317][181]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:325][182]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:334][183]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:342][184]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:350][185]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:359][186]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:367][187]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:375][188]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:384][189]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:392][190]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:400][191]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:409][192]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:417][193]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:425][194]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:434][195]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:442][196]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:450][197]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:459][198]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:467][199]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:475][200]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:484][201]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:492][202]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:500][203]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:509][204]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:517][205]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:525][206]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:534][207]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:542][208]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:550][209]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:559][210]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:567][211]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:575][212]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:584][213]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:592][214]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:600][215]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:609][216]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:617][217]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:625][218]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:634][219]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:642][220]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:650][221]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:659][222]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:667][223]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:675][224]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:684][225]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:692][226]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:700][227]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:709][228]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:717][229]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:726][230]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:734][231]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:742][232]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:751][233]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:759][234]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:767][235]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:776][236]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:784][237]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:792][238]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:801][239]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:809][240]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:817][241]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:826][242]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:834][243]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:842][244]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:851][245]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:859][246]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:867][247]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:876][248]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:884][249]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:892][250]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:901][251]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:909][252]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:917][253]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:926][254]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:934][255]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:942][256]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:951][257]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:959][258]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:967][259]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:976][260]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:984][261]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.16.59:992][262]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:001][263]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:009][264]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:017][265]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:025][266]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:033][267]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:042][268]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:050][269]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:059][270]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:067][271]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:076][272]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:084][273]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:092][274]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:101][275]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:109][276]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:117][277]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:125][278]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:134][279]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:142][280]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:151][281]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:159][282]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:167][283]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:175][284]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:183][285]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:192][286]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:200][287]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:209][288]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:217][289]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:225][290]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:234][291]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:242][292]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:250][293]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:259][294]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:267][295]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:275][296]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:284][297]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:292][298]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:300][299]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:309][300]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:317][301]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:325][302]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:333][303]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:342][304]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:350][305]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:359][306]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:367][307]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:375][308]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:384][309]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:392][310]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:401][311]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:410][312]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:417][313]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:426][314]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:434][315]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:442][316]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:451][317]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:459][318]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:467][319]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:475][320]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:484][321]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:492][322]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:500][323]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:509][324]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:517][325]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:525][326]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:534][327]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:542][328]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:550][329]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:559][330]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:567][331]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:575][332]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:584][333]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:592][334]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:600][335]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:609][336]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:617][337]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:626][338]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:634][339]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:642][340]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:651][341]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:659][342]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:667][343]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:676][344]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:684][345]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:692][346]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:701][347]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:709][348]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:717][349]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:726][350]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:734][351]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:742][352]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:751][353]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:759][354]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:767][355]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:775][356]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:784][357]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:792][358]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:800][359]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:809][360]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:817][361]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:826][362]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:834][363]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:842][364]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:851][365]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:859][366]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:867][367]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:876][368]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:884][369]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:892][370]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:901][371]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:909][372]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:917][373]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:925][374]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:934][375]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:942][376]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:950][377]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:959][378]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.00:967][379]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:976][380]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:984][381]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.00:992][382]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:001][383]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:009][384]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:017][385]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:026][386]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:034][387]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:042][388]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:050][389]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:059][390]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:067][391]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:075][392]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:084][393]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:092][394]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:100][395]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:109][396]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:117][397]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:125][398]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:134][399]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:142][400]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:150][401]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:159][402]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:167][403]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:176][404]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:184][405]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:192][406]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:200][407]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:209][408]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:217][409]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:226][410]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.01:234][411]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:243][412]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:251][413]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:259][414]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:267][415]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:276][416]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:285][417]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:292][418]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:300][419]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:308][420]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:317][421]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:325][422]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:334][423]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:342][424]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:350][425]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:359][426]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:367][427]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:375][428]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:384][429]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:392][430]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:400][431]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:408][432]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:417][433]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:425][434]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:434][435]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:442][436]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:450][437]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:459][438]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:467][439]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:476][440]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:484][441]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:492][442]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:500][443]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:508][444]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:517][445]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:525][446]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:534][447]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:542][448]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:551][449]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:559][450]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:567][451]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:576][452]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:584][453]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:592][454]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:600][455]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:609][456]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:617][457]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:625][458]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:633][459]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:642][460]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:651][461]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:659][462]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:667][463]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:676][464]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:684][465]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:692][466]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:701][467]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:709][468]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:717][469]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:726][470]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:733][471]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:741][472]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:750][473]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:758][474]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:767][475]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:776][476]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:784][477]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:792][478]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:801][479]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:809][480]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:817][481]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:826][482]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:834][483]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:842][484]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:850][485]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:859][486]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:867][487]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:876][488]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:884][489]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:892][490]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:901][491]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:909][492]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:917][493]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:926][494]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:934][495]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:942][496]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:951][497]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:959][498]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:967][499]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:976][500]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:984][501]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.01:992][502]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:000][503]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:009][504]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:017][505]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:025][506]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:034][507]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:042][508]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:050][509]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:059][510]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:067][511]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:075][512]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:084][513]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:092][514]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:101][515]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:109][516]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:117][517]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:126][518]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:134][519]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:142][520]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:151][521]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:159][522]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:167][523]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:176][524]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:184][525]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:192][526]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:200][527]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:209][528]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:217][529]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:225][530]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:234][531]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:242][532]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:250][533]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:259][534]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:267][535]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:276][536]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:284][537]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:292][538]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:301][539]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:309][540]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:317][541]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:325][542]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:333][543]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:342][544]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:350][545]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:359][546]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:367][547]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:376][548]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:384][549]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:392][550]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:401][551]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:409][552]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:417][553]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:426][554]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:434][555]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:442][556]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:451][557]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:459][558]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:467][559]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:475][560]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:483][561]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:492][562]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:500][563]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:508][564]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:517][565]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:525][566]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:533][567]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:542][568]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:550][569]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:558][570]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:567][571]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:575][572]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:583][573]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:592][574]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:600][575]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:608][576]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:617][577]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:625][578]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:634][579]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:642][580]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:650][581]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:658][582]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:667][583]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:675][584]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:683][585]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:692][586]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:700][587]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:709][588]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:717][589]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:726][590]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:734][591]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:742][592]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:750][593]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:759][594]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:767][595]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:775][596]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:784][597]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:792][598]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:800][599]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:809][600]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:817][601]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:825][602]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:834][603]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:842][604]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:850][605]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:858][606]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:867][607]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:875][608]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:883][609]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:892][610]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:900][611]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:908][612]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:917][613]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:925][614]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:933][615]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:942][616]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:950][617]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:959][618]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:967][619]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:975][620]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:983][621]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.02:992][622]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:000][623]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:009][624]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:017][625]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:025][626]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:034][627]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:042][628]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:050][629]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:059][630]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:067][631]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:075][632]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:084][633]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:092][634]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:100][635]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:109][636]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:117][637]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:125][638]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:134][639]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:142][640]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:150][641]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:158][642]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:167][643]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:175][644]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:183][645]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:192][646]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:200][647]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:209][648]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:217][649]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:225][650]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:233][651]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:242][652]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:250][653]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:258][654]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:267][655]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:275][656]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:283][657]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:292][658]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:300][659]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:308][660]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:317][661]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:325][662]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:333][663]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:342][664]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:350][665]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:358][666]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:367][667]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:375][668]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:384][669]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:392][670]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:400][671]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:409][672]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:417][673]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:425][674]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:434][675]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:442][676]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:451][677]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:459][678]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:467][679]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:476][680]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.03:484][681]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:492][682]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:501][683]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:509][684]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:517][685]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:525][686]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:534][687]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:542][688]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:550][689]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:559][690]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:567][691]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:575][692]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:584][693]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:592][694]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:600][695]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:608][696]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:617][697]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:625][698]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:634][699]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:642][700]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:650][701]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:659][702]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:667][703]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:675][704]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:684][705]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:692][706]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:700][707]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:708][708]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:717][709]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:725][710]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:733][711]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:742][712]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:750][713]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:758][714]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:767][715]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:775][716]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:784][717]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:792][718]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:800][719]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:808][720]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:817][721]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:825][722]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:834][723]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:842][724]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:850][725]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:858][726]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:867][727]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:875][728]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:883][729]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:892][730]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:900][731]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:909][732]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:917][733]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:925][734]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:934][735]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:942][736]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:950][737]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:959][738]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:967][739]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:975][740]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:984][741]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.03:992][742]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:000][743]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:009][744]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:017][745]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:025][746]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:034][747]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:042][748]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:050][749]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:059][750]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:067][751]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:075][752]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:084][753]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:092][754]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:100][755]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:109][756]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:117][757]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:125][758]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:134][759]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:142][760]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:151][761]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:159][762]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:167][763]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:176][764]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:184][765]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:192][766]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:201][767]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:209][768]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:217][769]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:226][770]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:234][771]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:242][772]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:251][773]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:259][774]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:267][775]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:275][776]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:284][777]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:292][778]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:300][779]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:309][780]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:317][781]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:326][782]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:334][783]LogBlueprintUserMessages: [Pawn_507] Pollar2
+[2017.08.08-08.17.04:342][784]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:351][785]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:359][786]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:368][787]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:376][788]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:384][789]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:392][790]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:401][791]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:409][792]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:417][793]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:425][794]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:434][795]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:442][796]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:450][797]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:459][798]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:467][799]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:476][800]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:484][801]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:492][802]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:501][803]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:509][804]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:517][805]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:525][806]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:535][807]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:542][808]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:552][809]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:559][810]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:567][811]LogBlueprintUserMessages: [Pawn_507] Wall2
+[2017.08.08-08.17.04:576][812]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:586][813]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:594][814]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:602][815]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:627][816]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:635][817]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:643][818]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:652][819]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:660][820]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:668][821]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:677][822]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:685][823]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:693][824]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:702][825]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:710][826]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:719][827]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:727][828]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:736][829]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:744][830]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:752][831]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:760][832]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:769][833]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:777][834]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:785][835]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:794][836]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:802][837]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:810][838]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:819][839]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:827][840]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:835][841]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:844][842]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:852][843]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:861][844]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:869][845]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:877][846]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:885][847]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:894][848]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:903][849]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:911][850]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:919][851]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:927][852]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:936][853]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:944][854]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.04:952][855]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.04:961][856]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.04:969][857]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.04:977][858]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.04:985][859]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.04:994][860]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:002][861]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:010][862]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:019][863]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:027][864]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:036][865]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:044][866]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:053][867]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:061][868]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:069][869]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:078][870]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:086][871]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:094][872]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:103][873]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:111][874]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:119][875]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:128][876]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:136][877]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:144][878]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:153][879]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:163][880]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:172][881]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:180][882]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:188][883]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:196][884]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:205][885]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:213][886]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:222][887]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:230][888]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:238][889]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:246][890]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:254][891]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:262][892]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:271][893]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:279][894]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:287][895]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:296][896]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:304][897]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:313][898]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:321][899]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:330][900]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:338][901]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:346][902]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:355][903]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:363][904]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:371][905]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:379][906]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:388][907]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:396][908]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:405][909]LogBlueprintUserMessages: [Pawn_507] Ceiling
+[2017.08.08-08.17.05:472][910]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.05:480][911]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.05:489][912]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.05:497][913]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.05:506][914]LogBlueprintUserMessages: [Pawn_507] Wall3
+[2017.08.08-08.17.05:514][915]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:524][916]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:531][917]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:540][918]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:548][919]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:556][920]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:564][921]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:573][922]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:581][923]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:590][924]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:598][925]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:606][926]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:614][927]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:622][928]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:631][929]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:639][930]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:647][931]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:655][932]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:664][933]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:672][934]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:680][935]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:689][936]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:697][937]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:705][938]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:714][939]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:722][940]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:730][941]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:739][942]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:747][943]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:755][944]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:764][945]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:772][946]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:781][947]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:789][948]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:797][949]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:806][950]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:814][951]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:822][952]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:831][953]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:839][954]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:848][955]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:856][956]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:864][957]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:873][958]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:881][959]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:889][960]LogBlueprintUserMessages: [Pawn_507] Pollar1
+[2017.08.08-08.17.05:898][961]LogBlueprintUserMessages: [Pawn_507] Pollar1
+[2017.08.08-08.17.05:906][962]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:914][963]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:923][964]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:931][965]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:939][966]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:948][967]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:956][968]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:964][969]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:973][970]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:981][971]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:989][972]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.05:998][973]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:006][974]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:014][975]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:023][976]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:031][977]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:039][978]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:048][979]LogBlueprintUserMessages: [Pawn_507] Wall1
+[2017.08.08-08.17.06:056][980]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:065][981]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:073][982]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:081][983]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:089][984]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:098][985]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:106][986]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:114][987]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:123][988]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:131][989]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:139][990]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:148][991]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:156][992]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:164][993]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:173][994]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:181][995]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:189][996]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:197][997]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:206][998]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:214][999]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:223][  0]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:231][  1]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:239][  2]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:247][  3]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:256][  4]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:265][  5]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:273][  6]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:281][  7]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:289][  8]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:298][  9]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:306][ 10]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:315][ 11]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:323][ 12]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:331][ 13]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:340][ 14]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:348][ 15]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:356][ 16]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:365][ 17]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:373][ 18]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:381][ 19]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:389][ 20]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:398][ 21]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:406][ 22]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:414][ 23]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:423][ 24]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:431][ 25]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:439][ 26]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:448][ 27]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:456][ 28]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:464][ 29]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:472][ 30]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:481][ 31]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:489][ 32]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:497][ 33]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:505][ 34]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:514][ 35]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:522][ 36]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:530][ 37]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:539][ 38]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:547][ 39]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:555][ 40]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:564][ 41]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:572][ 42]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:580][ 43]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:589][ 44]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:597][ 45]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:605][ 46]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:614][ 47]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:622][ 48]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:630][ 49]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:639][ 50]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:647][ 51]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:656][ 52]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:664][ 53]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:673][ 54]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:681][ 55]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:690][ 56]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:698][ 57]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:706][ 58]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:714][ 59]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:723][ 60]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:731][ 61]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:740][ 62]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:748][ 63]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:756][ 64]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:764][ 65]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:773][ 66]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:781][ 67]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:789][ 68]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:797][ 69]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:806][ 70]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:814][ 71]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:822][ 72]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:831][ 73]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:839][ 74]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:847][ 75]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:856][ 76]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:864][ 77]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:872][ 78]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:881][ 79]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:889][ 80]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:897][ 81]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:905][ 82]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:914][ 83]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:922][ 84]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:930][ 85]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:939][ 86]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:947][ 87]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:955][ 88]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:964][ 89]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:972][ 90]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:980][ 91]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:989][ 92]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.06:997][ 93]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:005][ 94]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:014][ 95]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:022][ 96]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:030][ 97]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:039][ 98]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:047][ 99]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:056][100]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:064][101]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:072][102]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:081][103]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:089][104]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:097][105]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:106][106]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:114][107]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:122][108]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:131][109]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:139][110]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:148][111]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:156][112]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:164][113]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:173][114]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:181][115]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:189][116]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:198][117]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:206][118]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:214][119]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:223][120]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:231][121]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:239][122]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:247][123]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:256][124]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:264][125]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:272][126]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:281][127]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:289][128]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:297][129]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:306][130]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:314][131]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:322][132]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:330][133]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:339][134]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:347][135]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:356][136]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:364][137]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:372][138]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:380][139]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:389][140]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:397][141]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:405][142]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:414][143]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:422][144]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:430][145]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:439][146]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:447][147]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:456][148]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:464][149]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:472][150]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:481][151]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:489][152]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:497][153]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:506][154]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:514][155]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:522][156]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:531][157]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:539][158]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:547][159]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:555][160]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:564][161]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:572][162]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:581][163]LogBlueprintUserMessages: [Pawn_507] Floor
+[2017.08.08-08.17.07:582][163]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.08-08.17.07:634][163]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel' has LevelScriptBlueprint '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default' with GeneratedClass '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default_C' with ClassGeneratedBy '/Game/StarterContent/Maps/Minimal_Default.Minimal_Default:PersistentLevel.Minimal_Default'
+[2017.08.08-08.18.44:249][377]LogEditorViewport: Clicking on Actor (LMB): Elevator_BP_C (Elevator_BP)
+[2017.08.08-08.18.45:409][512]LogEditorViewport: Clicking on Actor (LMB): Elevator_BP_C (Elevator_BP)
+[2017.08.08-08.18.46:264][611]LogEditorViewport: Clicking on Actor (LMB): Elevator_BP_C (Elevator_BP)
+[2017.08.08-08.19.13:360][648]LogEditorTransaction: Undo 컴포넌트 변경
+[2017.08.08-08.19.14:571][762]LogEditorTransaction: Undo 컴포넌트 변경
+[2017.08.08-08.19.15:856][913]LogEditorTransaction: Undo 컴포넌트 붙여넣기
+[2017.08.08-08.19.20:479][454]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Open_btn_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Open_btn_GEN_VARIABLE
+[2017.08.08-08.19.20:735][485]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Open_btn_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Open_btn_GEN_VARIABLE
+[2017.08.08-08.20.00:368][145]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Close_btn_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Close_btn_GEN_VARIABLE
+[2017.08.08-08.20.00:675][182]LogUObjectHash:Warning: Ambiguous search, could be StaticMeshComponent /Engine/Transient.Close_btn_GEN_VARIABLE or StaticMeshComponent /Engine/Transient.Close_btn_GEN_VARIABLE
+[2017.08.08-08.20.24:340][866]LogWindows: LaunchURL http://docs.unrealengine.com/latest/KOR/Engine/Blueprints/index.html?utm_source=editor&utm_medium=docs&utm_campaign=help_menu_asset
+[2017.08.08-08.20.45:933][ 54]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Elevator/Elevator_BP" FILE="../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/Elevator/Elevator_BP.uasset" SILENT=true
+[2017.08.08-08.20.46:069][ 54]LogSavePackage: Save=87.47ms
+[2017.08.08-08.20.46:069][ 54]LogSavePackage: Moving '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Saved/Elevator_BPA70C93ED480983CB22596D8F4EC67991.tmp' to '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/Elevator/Elevator_BP.uasset'
+[2017.08.08-08.20.46:075][ 54]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/Elevator/Elevator_BP.uasset
+[2017.08.08-08.20.48:952][347]LogSavePackage: Save=132.51ms
+[2017.08.08-08.20.48:952][347]LogSavePackage: Moving '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Saved/Minimal_Default6E739544415FE0FA0CEC06A729EC0ABB.tmp' to '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/StarterContent/Maps/Minimal_Default.umap'
+[2017.08.08-08.20.48:954][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/StarterContent/Maps/Minimal_Default.umap
+[2017.08.08-08.20.49:066][347]LogSavePackage: Save=76.80ms
+[2017.08.08-08.20.49:066][347]LogSavePackage: Moving '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Saved/Minimal_Default_BuiltData1AB320E44912B2DEE83F79AAD09D82EC.tmp' to '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2017.08.08-08.20.49:069][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset
+[2017.08.08-08.20.50:928][537]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.08.08-08.20.50:987][537]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.08-08.20.50:987][537]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.08-08.20.50:998][537]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.08-08.20.50:998][537]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.08-08.20.51:233][538]Cmd: QUIT_EDITOR
+[2017.08.08-08.20.51:650][538]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.08-08.20.51:650][538]LogWindowsTextInputMethodSystem:Display: IME system now activated using TSF (Microsoft 입력기).
+[2017.08.08-08.20.51:661][538]LogExit: Preparing to exit.
+[2017.08.08-08.20.52:722][538]LogDirectoryWatcher: A directory notification for 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Content/' was aborted.
+[2017.08.08-08.20.52:773][538]LogExit: Editor shut down
+[2017.08.08-08.20.52:776][538]LogExit: Transaction tracking system shut down
+[2017.08.08-08.20.53:050][538]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.08-08.20.53:050][538]LogExit: Object subsystem successfully closed.
+[2017.08.08-08.20.53:114][538]LogD3D11RHI: Shutdown
+[2017.08.08-08.20.53:114][538]LogD3D11RHI: CleanupD3DDevice
+[2017.08.08-08.20.53:217][538]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.08.08-08.20.53:261][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.08.08-08.20.53:261][538]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.08-08.20.53:262][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.08.08-08.20.53:262][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.08.08-08.20.53:262][538]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.08.08-08.20.53:262][538]LogDirectoryWatcher: A directory notification for 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Content/Collections/' was aborted.
+[2017.08.08-08.20.53:262][538]LogDirectoryWatcher: A directory notification for 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Content/Developers/yeshj/Collections/' was aborted.
+[2017.08.08-08.20.53:262][538]LogDirectoryWatcher: A directory notification for 'C:/Users/yeshj/Documents/Unreal Projects/Elevator/Saved/Collections/' was aborted.
+[2017.08.08-08.20.53:262][538]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.08-08.20.53:262][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.08-08.20.53:262][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.08-08.20.53:277][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.08-08.20.53:296][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.08-08.20.53:297][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.08-08.20.53:582][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.08-08.20.53:583][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.08-08.20.53:637][538]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.08-08.20.53:642][538]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.08-08.20.53:642][538]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.08-08.20.53:642][538]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.08-08.20.53:642][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.08-08.20.53:642][538]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.08-08.20.53:642][538]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.08-08.20.53:658][538]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.08-08.20.53:658][538]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.08-08.20.53:658][538]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.08-08.20.53:658][538]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.08-08.20.53:658][538]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.08-08.20.53:659][538]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.08-08.20.53:885][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.08-08.20.53:886][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.08-08.20.53:886][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.08-08.20.53:907][538]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.08-08.20.53:929][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.08-08.20.53:929][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.08-08.20.53:929][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.08-08.20.53:929][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.08-08.20.53:929][538]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.08-08.20.53:929][538]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.08-08.20.53:930][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.08-08.20.53:930][538]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.08-08.20.53:930][538]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.08-08.20.53:931][538]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.08-08.20.53:931][538]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.08-08.20.53:931][538]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.08-08.20.53:931][538]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.08-08.20.53:931][538]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.08-08.20.53:931][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.08-08.20.54:032][538]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.08-08.20.54:133][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.08-08.20.54:133][538]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.08-08.20.54:133][538]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.08-08.20.54:133][538]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.08-08.20.54:133][538]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.08-08.20.54:133][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.08-08.20.54:134][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.08-08.20.54:134][538]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.08-08.20.54:134][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.08-08.20.54:134][538]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.08-08.20.54:134][538]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.08-08.20.54:134][538]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.08-08.20.54:154][538]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.08-08.20.54:154][538]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.08-08.20.54:163][538]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.08-08.20.54:197][538]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.08-08.20.54:198][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.08-08.20.54:198][538]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.08-08.20.54:198][538]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.08-08.20.54:198][538]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.08-08.20.54:200][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.08-08.20.54:200][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.08-08.20.54:200][538]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.08-08.20.54:200][538]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.08-08.20.54:200][538]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.08-08.20.54:200][538]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.08-08.20.54:353][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.08-08.20.54:353][538]LogDirectoryWatcher: A directory notification for '../../../../../../Users/yeshj/Documents/Unreal Projects/Elevator/Content/' was aborted.
+[2017.08.08-08.20.54:353][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.08-08.20.54:353][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.08-08.20.54:355][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.08-08.20.54:356][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.08-08.20.54:444][538]LogDerivedDataCache: Shutdown
+[2017.08.08-08.20.54:444][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.08-08.20.54:444][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.08-08.20.54:482][538]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.08-08.20.54:482][538]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.08-08.20.54:482][538]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.08-08.20.54:482][538]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BBC5E5F1C-4E33-4801-CE46-CC8480A84C38%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=8db79c4f4641005a9a9283b93497ebe9%7Ce0dc99214f6e48b8ad3ee1817bb75f2d%7Ce80611fd-8668-4a6e-b7c9-834d394f29da&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.08-08.20.54:506][538]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.08-08.20.54:507][538]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.08-08.20.54:525][538]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.08-08.20.54:525][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.08-08.20.54:525][538]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.08-08.20.54:525][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.08-08.20.54:526][538]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.08-08.20.54:526][538]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.08-08.20.54:526][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.08-08.20.54:527][538]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.08-08.20.54:548][538]LogExit: Exiting.
+[2017.08.08-08.20.54:563][538]Log file closed, 08/08/17 17:20:54
